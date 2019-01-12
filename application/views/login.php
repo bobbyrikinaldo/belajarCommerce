@@ -36,8 +36,7 @@
                 <input name="password" type="password" placeholder="Password">
             </label>
             <label class="input mb-10">
-              <a href="#">Forgot password?</a>
-              <!-- <?= site_url('auth/checkForgot');?> -->
+              <a href="<?= site_url('auth/checkForgot');?>">Forgot password?</a>
             </label>
           </fieldset>
           <div class="mt-30">
